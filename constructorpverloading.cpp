@@ -7,7 +7,7 @@ class mahasiswa{
         int nim;
         string nama;
     public:
-        mahasiswa();
+        
         mahasiswa(int);
         mahasiswa(string);
         mahasiswa(int iNim, string iNama);
