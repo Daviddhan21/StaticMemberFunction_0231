@@ -16,7 +16,7 @@ public:
 
 angka::angka(int i){ // Constructor
     panjang = i;
-    
+    arr = new int[i];
     isiData();
 }
 
@@ -40,7 +40,7 @@ void angka::isiData()
     for (int i = 1; i <= panjang; i++)
     {
         cout << i << " = ";
-        cin >> arr[i];
+        
     }
     cout << endl;
 }
