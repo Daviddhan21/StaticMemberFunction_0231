@@ -20,10 +20,10 @@ angka::angka(int i){ // Constructor
     isiData();
 }
 
-angka:: // Destructor
+angka::~angka(){ // Destructor
     cout << endl;
     cetakData();
-    delete[] arr;
+    
     cout << "Alamat Array Sudah Dilepaskan" << endl;
 }
 
