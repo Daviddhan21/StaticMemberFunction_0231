@@ -6,8 +6,8 @@ class buku{
 
     public:
     buku &setJudul(string judul){
-        
-        return *this;   //chain function
+        this->judul = judul;
+           //chain function
     }
     string getJudul(){
         return this->judul;
