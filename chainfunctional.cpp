@@ -7,7 +7,7 @@ class buku{
     public:
     buku &setJudul(string judul){
         this->judul = judul;
-           //chain function
+        return *this;   //chain function
     }
     string getJudul(){
         return this->judul;
@@ -18,6 +18,6 @@ class buku{
 int main()
 {
     buku bukunya;
-    cout << bukunya.setJudul("Matematika").getJudul(); //chain function calls
+     //chain function calls
     return 0;
 }
