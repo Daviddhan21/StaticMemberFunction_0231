@@ -4,7 +4,7 @@ using namespace std;
 class Mahasiswa { //membuat class mahasiswa
 
 public:
-     //deklarasi variabel static yaitu variabel nim
+    static int nim; //deklarasi variabel static yaitu variabel nim
     //deklarasi variabel member
     int id;
     string nama;
@@ -24,7 +24,7 @@ int Mahasiswa::nim = 10;
 
 //mengimplementasikan prosedur - prosedur di luar class
 void Mahasiswa::setID() {
-    id = ++nim;
+    
 }
 
 void Mahasiswa::printAll() {
