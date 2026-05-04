@@ -20,7 +20,7 @@ angka::angka(int i){ // Constructor
     isiData();
 }
 
-angka::~angka(){ // Destructor
+angka:: // Destructor
     cout << endl;
     cetakData();
     delete[] arr;
@@ -40,7 +40,7 @@ void angka::isiData()
     for (int i = 1; i <= panjang; i++)
     {
         cout << i << " = ";
-        
+        cin >> arr[i];
     }
     cout << endl;
 }
