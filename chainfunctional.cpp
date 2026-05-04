@@ -18,6 +18,6 @@ class buku{
 int main()
 {
     buku bukunya;
-     //chain function calls
+    cout << bukunya.setJudul("Matematika").getJudul(); //chain function calls
     return 0;
 }
