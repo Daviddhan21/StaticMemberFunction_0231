@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-
-    string judul;
+class buku{
+    
 
     public:
     buku &setJudul(string judul){
