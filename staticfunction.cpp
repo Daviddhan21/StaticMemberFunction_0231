@@ -9,9 +9,7 @@ class Mahasiswa {
         int id;
         string nama;
 
-        static int getNim() {
-            return nim;
-        }
+        
 
         Mahasiswa(string pnama) :nama(pnama) {
             setID();
